@@ -1,0 +1,17 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+from typing import List
+
+class Employee(object):
+	def Employee(self):
+		pass
+
+	def getName(self):
+		return self.___name
+
+	def setName(self, aName) -> None:
+		self.___name = aName
+
+	def __init__(self):
+		self.___name = None
+

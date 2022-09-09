@@ -1,0 +1,30 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+from typing import List
+
+class Task(object):
+	def Task(self):
+		pass
+
+	def getName(self):
+		return self.___name
+
+	def setName(self, aName):
+		pass
+
+	def getTheEmployees(self):
+		return self.___theEmployees
+
+	def setTheEmployees(self, aTheEmployees) -> None:
+		self.___theEmployees = aTheEmployees
+
+	def getTheResources(self):
+		return self.___theResources
+
+	def setTheResources(self, aTheResources) -> None:
+		self.___theResources = aTheResources
+
+	def __init__(self):
+		self.___name = None
+		self.___theEmployees = None
+		self.___theResources = None
